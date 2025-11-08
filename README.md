@@ -9,7 +9,7 @@
   <li><b>Performance Analysis:</b> Assessing network performance and optimizing it by understanding traffic patterns and identifying bottlenecks.</li>
   <li><b>Compliance:</b> Ensuring that the network adheres to security policies and regulatory requirements by monitoring network activities.</li>
 </ol>
-<hr>
+
 <h3>How it works?</h3>
 <ol>
   <li><b>Packet Capture:</b> The sniffer captures packets traveling across the network. This can be done in real-time or by capturing packets for later analysis.</li>
@@ -24,13 +24,13 @@
   <li><b>tcpdump:</b> A powerful command-line packet analyzer; and libpcap, a portable C/C++ library for network traffic capture.</li>
   <li><b>Network Miner:</b> A network forensic analysis tool (NFAT) for Windows that can detect OS, sessions, hostnames, open ports, etc., without putting any traffic on the network.</li>
 </ol>
-<hr>
+
 <h3>Types of Network Sniffing</h3>
 <ol>
   <li><b>Passive Sniffing:</b> Monitoring packets without altering or injecting traffic. It is usually done in a network segment with a hub or a non-switched network.</li>
   <li><b>Active Sniffing:</b> Actively injecting packets into the network to capture traffic. It is used in switched networks and involves techniques like ARP spoofing or MAC flooding.</li>
 </ol>
-<hr>
+
 <h3>Legal and Ethical Considerations</h3>
 <p>While network probe sniffing is a powerful tool for network management and security, it also poses significant risks if used maliciously. Unauthorized sniffing can lead to:</p>
 <ul>
@@ -39,6 +39,6 @@
   <li><b>Legal Consequences:</b> Violating laws and regulations regarding data privacy and network security.</li>
 </ul>
 <p>Therefore, it is crucial to use network sniffing tools ethically and legally, ensuring proper authorization and compliance with relevant regulations.</p>
-<hr>
+
 <h2>Conclusion</h2>
 <p>Network probe sniffing is a vital practice in cybersecurity for monitoring, analyzing, and securing network traffic. By using tools like Wireshark, administrators can detect and mitigate potential threats, ensuring the integrity, confidentiality, and availability of network resources. However, it is imperative to conduct sniffing activities ethically and within legal boundaries to prevent misuse and protect sensitive information.</p>
